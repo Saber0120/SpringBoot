@@ -43,11 +43,12 @@
         </dependency>
 
         <!-- 为了解决html严格校验报错的问题，增添依赖nekohtml -->
-        <dependency>
+        <!-- SpringBoot2.0之后默认应用3.0版本的thymeleaf，无需再引入该包 -->
+        <!--<dependency>
             <groupId>net.sourceforge.nekohtml</groupId>
             <artifactId>nekohtml</artifactId>
             <version>1.9.22</version>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
     <build>
