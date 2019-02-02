@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>springboot学习</name>
+    <name>springboot</name>
     <description>学习地址：https://www.dalaoyang.cn/tag/springboot/4</description>
 
 </project>
