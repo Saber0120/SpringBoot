@@ -12,7 +12,7 @@
     <artifactId>springboot-webjars</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-webjars</name>
-    <description>Demo project for Spring Boot</description>
+    <description>使用Webjars</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -12,7 +12,7 @@
     <artifactId>springboot-first-project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-first-project</name>
-    <description>Demo project for Spring Boot</description>
+    <description>第一个项目</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -12,7 +12,7 @@
     <artifactId>springboot-internationalization</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-internationalization</name>
-    <description>Demo project for Spring Boot</description>
+    <description>国际化</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
