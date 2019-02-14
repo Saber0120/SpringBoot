@@ -1,8 +1,11 @@
 package com.saber.controller;
 
+import com.github.pagehelper.Page;
+import com.github.pagehelper.PageHelper;
 import com.saber.dao.UserMapper;
 import com.saber.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -43,5 +46,12 @@ public class UserController {
     @RequestMapping("/getUserList")
     public List<User> getUserList() {
         return userMapper.getUserList();
+    }
+
+    @GetMapping("/getUserPage")
+    public Page<User> getUserPage(Integer pageNum, Integer pageSize) {
+        PageHelper.startPage(pageNum, pageSize);
+        Page<User> userList = userMapper.getUserPage();
+        return userList;
     }
 }

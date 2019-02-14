@@ -12,7 +12,7 @@
     <artifactId>springboot-mybatis</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-mybatis</name>
-    <description>与mybatis整合</description>
+    <description>与mybatis整合、与pagehelper整合</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -45,6 +45,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>1.2.10</version>
         </dependency>
     </dependencies>
 

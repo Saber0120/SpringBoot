@@ -1,7 +1,9 @@
 package com.saber.dao;
 
+import com.github.pagehelper.Page;
 import com.saber.entity.User;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
@@ -17,4 +19,7 @@ public interface UserMapper {
     void saveUser(User user);
 
     List<User> getUserList();
+
+    @Select("SELECT * FROM USER")
+    Page<User> getUserPage();
 }
